@@ -1,0 +1,73 @@
+.c {
+  height: 100vh;
+  position: relative;
+}
+.c-bg {
+  width: 20px;
+  height: 100%;
+  background-color: rgb(68, 138, 218);
+  position: absolute;
+}
+
+.c-wrapper {
+  padding: 50px;
+  display: flex;
+}
+
+.c-left {
+  flex: 1;
+}
+
+.c-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.c-title {
+  font-size: 45px;
+  width: 80%;
+}
+.c-info-item {
+  display: flex;
+  align-items: center;
+  margin: 50px 0;
+  /* font-weight: 300; */
+}
+.c-icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 20px;
+}
+.c-desc {
+  font-size: 20px;
+  font-weight: 200;
+}
+form {
+  margin-top: 20px;
+}
+
+input[type='text'], input[type='email']  {
+  width: 50%;
+  height: 50px;
+  outline: none;
+  text-indent: 10px;
+  margin: 10px 0;
+  font-size: 14px;
+  border-bottom: 5px soid black ;
+}
+
+[name='user-message']{
+  width: 100%;
+  padding: 10px 15px;
+}
+
+[type='submit']{
+    padding: 15px;
+    background-color: rgb(68, 138, 218);
+    color: white;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+}

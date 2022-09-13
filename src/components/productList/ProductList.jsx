@@ -8,12 +8,11 @@ const ProductList = () => {
     return (
         <div className="pl">
             <div className="pl-texts">
-                <h1 className="pl-title">Hello, Arman</h1>
-                <p className="pl-desc">This is creative portfolio</p>
+                <h3 className="pl-title">Моё оборудование</h3>
             </div>
             <div className="pl-list">
                 {products.map((item) => (
-                    <Product key={item.id} img={item.img}link={item.link} />
+                    <Product key={item.id} img={item.img} link={item.link} name={item.name} desc={item.desc} />
                 ))}
             </div>
         </div>

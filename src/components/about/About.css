@@ -24,6 +24,7 @@
     left: 50px;
     background-color: rgb(94, 94, 97);
 }
+
 .a-card{
     width: 60%;
     height: 70vh;
@@ -31,7 +32,6 @@
     position: relative;
     overflow: hidden;
 }
-
 
 .a-video{
     width: 100%;
