@@ -1,7 +1,6 @@
 import React, { useContext } from "react";
 import { ThemeContext } from "../../context";
 import Me from "../../img/me.png";
-import ScrollDown from "../../img/scroll-down-icon.svg";
 import "./Intro.css";
 
 const Intro = () => {

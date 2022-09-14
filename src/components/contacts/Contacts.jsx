@@ -1,5 +1,5 @@
 import React, { useRef, useState, useContext } from "react";
-import { ThemeContext } from '../../context'
+import { ThemeContext } from "../../context";
 import Phone from "../../img/Phone.svg";
 import Home from "../../img/Home.svg";
 import Email from "../../img/Email.svg";
@@ -59,26 +59,40 @@ const Contacts = () => {
             нём подробнее. Я всегда открыт интересным предложениям.
           </p>
           <form ref={formRef} onSubmit={handleSubmit}>
+            <div className="c-form-wrapper">
+              <input
+                style={{
+                  backgroundColor: theme.state.darkMode && "#333",
+                  transition: "all 2s ease",
+                }}
+                type="text"
+                name="user-name"
+                placeholder="Имя"
+              />
+              <input
+                style={{
+                  backgroundColor: theme.state.darkMode && "#333",
+                  transition: "all 2s ease",
+                }}
+                type="text"
+                name="user-subject"
+                placeholder="Мероприятие"
+              />
+            </div>
             <input
-              style={{ backgroundColor: theme.state.darkMode && "#333", transition: 'all 2s ease' }}
-              type="text"
-              name="user-name"
-              placeholder="Имя"
-            />
-            <input
-              style={{ backgroundColor: theme.state.darkMode && "#333", transition: 'all 2s ease' }}
-              type="text"
-              name="user-subject"
-              placeholder="Мероприятие"
-            />
-            <input
-              style={{ backgroundColor: theme.state.darkMode && "#333", transition: 'all 2s ease' }}
+              style={{
+                backgroundColor: theme.state.darkMode && "#333",
+                transition: "all 2s ease",
+              }}
               type="email"
               name="user-email"
               placeholder="Email"
             />
             <textarea
-              style={{ backgroundColor: theme.state.darkMode && "#333", transition: 'all 2s ease' }}
+              style={{
+                backgroundColor: theme.state.darkMode && "#333",
+                transition: "all 2s ease",
+              }}
               name="user-message"
               cols="30"
               rows="5"
