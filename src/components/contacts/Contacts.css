@@ -22,7 +22,6 @@
   flex: 1;
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
   justify-content: center;
 }
 .c-title {
@@ -52,7 +51,6 @@ input[type="email"] {
   outline: none;
   text-indent: 10px;
   font-size: 14px;
-  border-bottom: 5px soid black;
 }
 input[type="text"],
 input[type="email"],[name="user-message"]{
