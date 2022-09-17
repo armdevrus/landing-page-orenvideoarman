@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/landing-page-orenvideoarman/static/css/main.77b6b80c.css",
-    "main.js": "/landing-page-orenvideoarman/static/js/main.333d5c92.js",
+    "main.css": "/landing-page-orenvideoarman/static/css/main.358391c6.css",
+    "main.js": "/landing-page-orenvideoarman/static/js/main.ca43921c.js",
     "static/media/video-bg.mp4": "/landing-page-orenvideoarman/static/media/video-bg.fb7d40bdd0e8d0e25cea.mp4",
     "static/media/me.png": "/landing-page-orenvideoarman/static/media/me.002b4917a3e0f1bac580.png",
     "static/media/Sun.svg": "/landing-page-orenvideoarman/static/media/Sun.56c06ae32a6bf842405a8d1f22298f25.svg",
@@ -10,11 +10,11 @@
     "static/media/Home.svg": "/landing-page-orenvideoarman/static/media/Home.aaace353635173e1d74a19365e06092f.svg",
     "index.html": "/landing-page-orenvideoarman/index.html",
     "static/media/Moon.svg": "/landing-page-orenvideoarman/static/media/Moon.70360a00868dac8f550af5bbc5cafc9b.svg",
-    "main.77b6b80c.css.map": "/landing-page-orenvideoarman/static/css/main.77b6b80c.css.map",
-    "main.333d5c92.js.map": "/landing-page-orenvideoarman/static/js/main.333d5c92.js.map"
+    "main.358391c6.css.map": "/landing-page-orenvideoarman/static/css/main.358391c6.css.map",
+    "main.ca43921c.js.map": "/landing-page-orenvideoarman/static/js/main.ca43921c.js.map"
   },
   "entrypoints": [
-    "static/css/main.77b6b80c.css",
-    "static/js/main.333d5c92.js"
+    "static/css/main.358391c6.css",
+    "static/js/main.ca43921c.js"
   ]
 }
