@@ -159,8 +159,14 @@
 }
 }
 
-@media screen  and (max-width: 768px  ) {
+@media screen  and (max-width: 768px) {
   .i{
     flex-direction: column;
+  }
+  .i-left-wrapper{
+    padding-top: 0;
+  }
+  .i-name{
+    margin-top: 0;
   }
 }
